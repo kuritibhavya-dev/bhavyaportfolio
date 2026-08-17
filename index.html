@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Bhavya Kuriti — Portfolio</title>
+  <meta name="description" content="Bhavya Kuriti — Software developer. Classic, professional portfolio showcasing projects and contact." />
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#">Bhavya Kuriti</a>
+      <button id="nav-toggle" class="nav-toggle" aria-expanded="false" aria-controls="primary-nav">☰</button>
+      <nav id="primary-nav" class="primary-nav" aria-label="Primary">
+        <a href="#about">About</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="container hero-inner">
+        <div class="hero-card">
+          <img src="assets/profile.svg" alt="Profile photo" class="profile-photo">
+          <div class="hero-content">
+            <h1 class="name">Bhavya Kuriti</h1>
+            <p class="tagline">Building thoughtful, maintainable web experiences — frontend, design, and user-focused engineering.</p>
+            <p class="actions">
+              <a class="btn primary" href="#projects">View Projects</a>
+              <a class="btn outline" href="#contact">Get in touch</a>
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="container">
+        <h2 class="section-title">About</h2>
+        <div class="about-grid">
+          <div>
+            <p>I’m a software developer focused on creating reliable, accessible, and elegant web applications. I value clear interfaces, performance, and code that’s easy for teams to maintain.</p>
+            <p>My work spans frontend engineering, UI/UX collaboration, and small full-stack projects. I’m currently open to contract and full-time opportunities.</p>
+          </div>
+          <div class="about-stats">
+            <div class="stat">
+              <div class="stat-value">5+</div>
+              <div class="stat-label">Years experience</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">10+</div>
+              <div class="stat-label">Projects shipped</div>
+            </div>
+            <div class="stat">
+              <div class="stat-value">React • HTML • CSS</div>
+              <div class="stat-label">Tech</div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="projects" class="section projects">
+      <div class="container">
+        <h2 class="section-title">Selected Projects</h2>
+        <div class="projects-grid">
+
+          <article class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Project One</h3>
+              <p class="project-desc">A business dashboard that visualizes sales and KPIs with performant charts and filters.</p>
+            </div>
+            <div class="project-meta">
+              <a class="project-link" href="https://github.com/kuritibhavya-dev/project-one" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Project Two</h3>
+              <p class="project-desc">An accessible marketing site with a component library and performant static build.</p>
+            </div>
+            <div class="project-meta">
+              <a class="project-link" href="https://github.com/kuritibhavya-dev/project-two" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-content">
+              <h3 class="project-title">Project Three</h3>
+              <p class="project-desc">A full-stack app demonstrating authentication, REST APIs, and a small admin panel.</p>
+            </div>
+            <div class="project-meta">
+              <a class="project-link" href="https://github.com/kuritibhavya-dev/project-three" target="_blank" rel="noopener">View on GitHub</a>
+            </div>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="container">
+        <h2 class="section-title">Contact</h2>
+        <p>If you'd like to work together or want to say hello, reach me at <a href="mailto:kuritibhavya@gmail.com">kuritibhavya@gmail.com</a> or connect on the platforms below.</p>
+        <ul class="social-list">
+          <li><a href="https://github.com/kuritibhavya-dev" target="_blank" rel="noopener">GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/kuritibhavya" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://twitter.com/kuritibhavya" target="_blank" rel="noopener">Twitter</a></li>
+        </ul>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <small>© <span id="year"></span> Bhavya Kuriti. Built with care.</small>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
