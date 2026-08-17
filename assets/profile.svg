@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="480" viewBox="0 0 480 480" role="img" aria-labelledby="title">
+  <title id="title">Bhavya Kuriti</title>
+  <defs>
+    <linearGradient id="g" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0" stop-color="#0b5fff"/>
+      <stop offset="1" stop-color="#0a4ed1"/>
+    </linearGradient>
+  </defs>
+  <rect width="100%" height="100%" rx="24" fill="#fff"/>
+  <rect x="24" y="24" width="432" height="432" rx="18" fill="url(#g)"/>
+  <g transform="translate(240,240)" font-family="Merriweather,serif" text-anchor="middle" fill="#fff">
+    <circle r="86" fill="rgba(255,255,255,0.08)"/>
+    <text y="-10" font-size="64" font-weight="700">BK</text>
+    <text y="46" font-size="20" fill="rgba(255,255,255,0.9)">Bhavya Kuriti</text>
+  </g>
+</svg>
